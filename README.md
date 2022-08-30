@@ -1,6 +1,7 @@
 # Near real time AWS DataPipeline (Kinesis Firehose, S3, Lambda and Athena ) deployed w/ Terraform
 Project that utilises Kinesis Firehose to ingest data into a S3 data lake, perform some transformations in AWS Lambda Function (to get location based in coordinates) and copy the transformed data in a new layer in s3. This new data can queried by Amazon Athena. Everyhing is deployed as `Infrastructure as Code` using Terraform.
 
+![Alt text](_Diagrama%20AWS%20em%20branco%20(2017).jpeg?raw=true "Title")
 
 ## Requirements 
 * Install [Terraform](https://releases.hashicorp.com/terraform/1.2.8/terraform_1.2.8_windows_amd64.zip)
